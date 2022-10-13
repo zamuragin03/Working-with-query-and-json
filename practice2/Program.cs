@@ -96,15 +96,6 @@ namespace practice2
 
             Console.WriteLine(query9.Count());
 
-            //IEnumerable<Products> numQuery1 = products0.Where(n => n.ProductID1 > 70).Select(n => n);
-            //Console.WriteLine("numQuery1");
-            //foreach (Products t in numQuery1) Console.WriteLine(t);
-            //IEnumerable<string> Query2 =
-            //    from num in products0
-            //    where num.ProductID1 >= 10 && num.ProductID1 <= 20
-            //    select num.ProductID1 + num.ProductName1;
-            //foreach (string t in Query2) Console.WriteLine(t);
-
             bool IsLowerThan7(string ProductName)
             {
                 char[] arr = ProductName.ToCharArray();
